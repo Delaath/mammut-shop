@@ -1,0 +1,777 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+
+/* ==========================HEADER=========================== */
+
+.hero{
+    height: 800px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+      rgba(25, 25, 25, 0.75),
+      rgba(25, 25, 25, 0.75)),
+        url(./img/hero-bgi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.2px;
+    letter-spacing: 0.72px;
+
+    padding-top: 11px;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.header-items{
+    padding-left: 70px;
+    padding-right: 70px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.6px;
+    letter-spacing: 0.96px;
+}
+
+/* ================================HERO======================================== */
+
+.hero-list{
+    display: flex;
+    gap: 15px;
+    margin-top: 448px;
+    margin-left: 28px;
+}
+
+.hero-items:nth-child(1){
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.75px;
+    letter-spacing: 2.25px;
+}
+.hero-items:nth-child(2){
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.75px;
+    letter-spacing: 2.25px;
+}
+.hero-items:nth-child(3){
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.75px;
+    letter-spacing: 2.25px;
+}
+
+.hero-subtitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.72px;
+    letter-spacing: 0.72px;
+    width: 330px;
+
+    margin-top: 41px;
+    margin-left: 32px;
+    margin-bottom: 29px;
+}
+
+.hero-link{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 190.909% */
+    letter-spacing: 0.84px;
+
+    border-radius: 3px;
+    border: 1px solid gray;
+    background: rgba(255, 255, 255, 0.10);
+    
+    padding: 11px 25px;
+    margin-left: 32px;
+}
+
+/* =============================NEED=============================== */
+
+.what-do-you-need{
+    display: flex;
+    padding-right: 0;
+}
+
+.need-title{
+    width: 348px;
+    color: #191919;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 1.30px;
+
+    margin-top: 81px;
+    margin-left: 32px;
+    margin-right: 68px;
+}
+
+.need-list{
+    display: flex;
+    column-gap: 16px;
+    margin-top: 81px;
+    padding-bottom: 48px;
+}
+
+
+.container_2 {
+    position: relative;
+    text-align: center;
+}
+
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+    letter-spacing: 1.44px;
+}
+
+/* ==============================EXTREME====================================== */
+
+.extreme{
+    background-image: url(./img/extreme.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.extreme-list{
+    display: flex;
+    gap: 15px;
+    padding-top: 508px;
+    margin-left: 28px;
+}
+
+.extreme-items:nth-child(1){
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.75px;
+    letter-spacing: 2.25px;
+}
+.extreme-items:nth-child(2){
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.75px;
+    letter-spacing: 2.25px;
+}
+
+.extreme-subtitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.72px;
+    letter-spacing: 0.72px;
+    width: 330px;
+
+    margin-top: 41px;
+    margin-left: 32px;
+    margin-bottom: 29px;
+}
+
+.extreme-link{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 190.909% */
+    letter-spacing: 0.84px;
+
+    border-radius: 3px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.10);
+    
+    padding: 11px 25px;
+    margin-left: 32px;
+}
+
+/* ===========================GENDER=========================== */
+
+.gender {
+    margin-top: 101px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.gender-list {
+    height: 419px;
+    background-image: url(./img/gender1.jpg),
+                      url(./img/gender2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender-title{
+    padding-top: 48px;
+    padding-left: 38px;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 1.92px;
+}
+
+.gender-subtitle{
+    padding-top: 26px;
+    padding-left: 57px;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 190.909% */
+    letter-spacing: 0.84px;
+}
+
+.gender-items{
+    padding-right: 289px;
+}
+
+/* =========================ADVENTURE_2===============================*/
+
+.adventure_2{
+    display: flex;
+}
+
+.adventure_2-title{
+    width: 348px;
+    color: #191919;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 1.30px;
+
+    margin-top: 148px;
+    margin-left: 32px;
+    margin-right: 101px;
+}
+
+.adventure_2-list{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 148px;
+    padding-bottom: 48px;
+}
+
+/* =======================Bestsellers======================= */
+
+.bestsellers{
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.bestsellers-list{
+    background-color: #23293C;
+    width: 400px;
+}
+
+.bestsellers-title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.75px;
+    letter-spacing: 2.25px;
+
+    margin-top: 187px;
+    padding-left: 28px;
+}
+
+.bestsellers-subtitle{
+    color: #191919;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+    letter-spacing: 0.6px;
+
+    margin-top: 2px;
+    margin-left: 224px;
+}
+
+.bestsellers-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.72px;
+    letter-spacing: 0.72px;
+
+    margin-top: 23px;
+    margin-left: 32px;
+    margin-bottom: 299px;
+    width: 335px;
+}
+
+.bestsellers-link1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.84px;
+    text-align: center;
+
+    border-radius: 3px;
+    border: 1px solid white;
+    
+    padding: 11px 43px;
+    margin-left: 32px;
+}
+
+.bestsellers-link2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.84px;
+    text-align: center;
+
+    border-radius: 3px;
+    border: 1px solid white;
+    
+    padding: 11px 35px;
+    margin-left: 32px;
+}
+
+.bestsellers-items-a{
+    margin-bottom: 33px;
+}
+
+/* ===================bestsellers_2=============== */
+
+.bestsellers_2{
+    margin-top: 100px;
+}
+
+.bestsellers-line{
+    display: flex;
+    justify-content: end;
+}
+
+.line2{
+    margin-left: 1200px;
+    width: 220px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #CDCDCD;
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.bestsellers_2-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestsellers_2-title{
+    color: #191919;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 1.92px;
+
+    padding-left: 32px;
+}
+
+.bestsellers_2-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 32px;
+}
+
+.bestsellers_2-text{
+    color: #191919;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.84px;
+}
+
+.bestsellers_2-img{
+    padding: 14px;
+    background: #FFF;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+.bestsellers_2-shop{
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.shop-img{
+    overflow: hidden;
+}
+
+.shop-subtitle{
+    color: #191919;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.84px;
+    letter-spacing: 0.864px;
+}
+
+.shop-price{
+    color: #191919;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+}
+
+/* ====================mammut====================== */
+
+.mammut{
+    margin-top: 147px;
+}
+
+.mammut-title{
+    color: #191919;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+    letter-spacing: 1.44px;
+
+    margin-bottom: 28px;
+}
+
+.mammut-list{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 16px;
+}
+
+.mammut-buttom{
+    color: #191919;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.864px;
+
+    border-radius: 3px;
+    border: 1px solid #E1E1E1;
+    background: #FFF;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.10);
+
+    padding-left: 51px;
+    padding-right: 51px;
+
+    display: flex;
+    align-items: flex-end;
+    column-gap: 8px;
+
+}
+
+.buttom-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+}
+
+/* ===================sign===================== */
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    margin-top: 119px;
+}
+
+.sign-title{
+    width: 483px;
+    color: #191919;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 1.92px;
+    margin-left: 359px;
+}
+
+.sign-buttom{
+    margin-left: 510px;
+    margin-top: 37px;
+    margin-bottom: 144px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.864px;
+    text-align: center;
+
+    padding: 17px 68px 18px 69px;
+
+    
+    border-radius: 3px;
+    border: 1px solid #000;
+    background: #000;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* ===================footer====================== */
+
+footer{
+    background-color: #23293C;
+}
+
+.footer_1{
+    display: flex;
+}
+
+.logo{
+    width: 180px;
+    height: 19px;
+    flex-shrink: 0;
+
+    margin-top: 64px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.footer-list{
+    margin-top: 65px;
+    padding-right: 170px;
+}
+
+.footer-list:last-child{
+    margin-right: 0;
+}
+
+.footer-list-title{
+    margin-bottom: 32px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.84px;
+    letter-spacing: 0.864px;
+}
+
+.footer-items{
+    color: #CDCDCD;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.84px;
+    letter-spacing: 0.864px;
+    width: 173px;
+
+    margin-bottom: 15px;
+}
+
+.footer-items:last-child{
+    margin-bottom: 0;
+}
+
+.footer-line{
+    width: 1120px;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(204, 204, 204, 0.20);
+    
+
+    margin-bottom: 65px;
+    margin-top: 70px;
+}
+
+.footer_2-list{
+    display: flex;
+    margin-left: 40px;
+    column-gap: 70px;
+}
+
+.footer_2-items{
+    display: flex;
+    column-gap: 16px;
+}
+
+.footer_2-img {
+    width: 20px;
+    height: 20px;
+    padding: 18px;
+    background-color: rgb(48, 56, 81);
+    box-sizing: content-box;
+}
+
+.footer_2-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_2-title{
+    margin-bottom: 4px;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.72px;
+    letter-spacing: 0.72px;
+}
+
+.footer_2-text{
+    color: #CDCDCD;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+    letter-spacing: 0.6px;
+
+    width: 162px;
+}
+
+.footer_3{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.footer_3-list{
+    display: flex;
+    gap: 18px;
+    margin-left: 40px;
+    margin-right: 393px;
+}
+
+.footer_3-list:last-child{
+    margin-right: 0;
+}
+
+.footer_3-items{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.84px;
+}
+
+.footer_3-items:hover{
+    background: #DDD;
+}
+
+.footer_3-link{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
